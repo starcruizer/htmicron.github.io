@@ -22,7 +22,7 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "HT32SX Application Notes", "index.html", [
+  [ "HT32SX Monarch Scan", "index.html", [
     [ "Monarch Scan Application for HT32SX", "index.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [

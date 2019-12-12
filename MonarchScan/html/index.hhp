@@ -6,10 +6,10 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=HT32SX Application Notes
+Title=HT32SX Monarch Scan
 
 [WINDOWS]
-main="HT32SX Application Notes","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="HT32SX Monarch Scan","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
 _s2_l_p___a_u_x___e_e_p_r_o_m_8h_source.html
@@ -140,27 +140,24 @@ structsfx__monarch__pattern__search__t.html
 structsfx__rc__specific__t.html
 structsfx__rc__t.html
 structst__manuf__t.html
-dir_527621f952150c2e4147e5db127cb512.html
-dir_ea5572db665112246ffd04214660de2d.html
-dir_415c7ba6945e739add07190bce59c604.html
-dir_8d1fc8a8066494830b0835bd2c8fa69d.html
-dir_96a0f2bd7f5d3bd45c6901a4da513a5a.html
-dir_907c0872d3b9758ca07ed6c7c25cc999.html
-dir_d9079b72b7eb52fcd8abeb6a978e4b38.html
-dir_777b8f94066b8619e6b0e0452e687e49.html
-dir_e4d5023db4edae1e7fd5dfe0cc3a490a.html
-dir_0917a00b863ceb96d64468417ba738e8.html
-dir_93b676142983a3393f6e9d303bd097ae.html
-dir_f21278dc6978df79709af3f4a969a8e6.html
-dir_67ba574fecedcee1bac9336a26b918c8.html
-dir_97cd3a2ad60f8e1dc9ce605a56f3fb77.html
-dir_d57c15336bf89ef19a143ece79ba9462.html
-dir_b6f849944907e70c2e4012fd58deacbb.html
-dir_89e1fbd589d90be4dbf4de60e534dd3c.html
-dir_1773faab32bd6f2ca7f106681885401c.html
-dir_aa2185c16da779ef4f9ec583840f3e7c.html
-dir_74e22a15042c85d32fb64c3199f42f98.html
-dir_0c92f41cafc9bdd235dcdf87a9bc6e08.html
+dir_60925fc218da8ca7908795bf5f624060.html
+dir_ff6839a33613571701332a07292a1621.html
+dir_daa0038b591125767fc9928ce65df4c1.html
+dir_9da30c7c9a44e9f2fb795d6b082f37bc.html
+dir_838b44df40e2647131763b886c8771d1.html
+dir_f93dfce691d792349f1c14ede440e2e6.html
+dir_f5fd260ad2d2b6e2f6341ed3317cafc7.html
+dir_43c483566ea72670e73d2efa3fb8c1f5.html
+dir_ce76a356c6c747456988941cf0f62621.html
+dir_413f4e031a85da0d68269c6fd2f76e1c.html
+dir_8304699a5b51985a9762dd231f373eaa.html
+dir_4e0ceb636c48d639e35cf1d13ad4810e.html
+dir_272c21b9f02b590bf6261d0b1b3807db.html
+dir_49d86153180e8f424393da17d5341864.html
+dir_b203a48268e1e743fc4378648ee56120.html
+dir_ff0c15fd1f131692abd46dd715bd8058.html
+dir_be426168fde05e5bb7275ea06d9fe177.html
+dir_2b5e356b233f9532d6fa27dd0cf36e7a.html
 index.html
 modules.html
 annotated.html

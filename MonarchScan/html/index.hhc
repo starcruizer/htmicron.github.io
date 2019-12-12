@@ -4,19 +4,6 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
-<LI><OBJECT type="text/sitemap"><param name="Name" value="Monarch Scan Application for HT32SX"><param name="Local" value="index.html"><param name="ImageNumber" value="11"></OBJECT>
-  <UL>
-    <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Introduction"><param name="Local" value="index.html#autotoc_md34"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="About this document"><param name="Local" value="index.html#autotoc_md35"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Application description"><param name="Local" value="index.html#autotoc_md36"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Software architecture"><param name="Local" value="index.html#autotoc_md37"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Results"><param name="Local" value="index.html#autotoc_md38"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Extra Documentation"><param name="Local" value="index.html#autotoc_md39"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="References"><param name="Local" value="index.html#autotoc_md40"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Contact Information"><param name="Local" value="index.html#autotoc_md41"><param name="ImageNumber" value="11"></OBJECT>
-    </UL>
-  </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Modules"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="S2LP_FEM"><param name="Local" value="group___s2_l_p___f_e_m.html"><param name="ImageNumber" value="1"></OBJECT>
@@ -590,13 +577,13 @@
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Drivers"><param name="Local" value="dir_ea5572db665112246ffd04214660de2d.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Drivers"><param name="Local" value="dir_60925fc218da8ca7908795bf5f624060.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="S2LP_Middleware"><param name="Local" value="dir_93b676142983a3393f6e9d303bd097ae.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="S2LP_Middleware"><param name="Local" value="dir_43c483566ea72670e73d2efa3fb8c1f5.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="STM32"><param name="Local" value="dir_1773faab32bd6f2ca7f106681885401c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="STM32"><param name="Local" value="dir_b203a48268e1e743fc4378648ee56120.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_907c0872d3b9758ca07ed6c7c25cc999.html"><param name="ImageNumber" value="1"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_daa0038b591125767fc9928ce65df4c1.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="S2LP_AUX_EEPROM.h"><param name="Local" value="_s2_l_p___a_u_x___e_e_p_r_o_m_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="S2LP_AUX_FEM.h"><param name="Local" value="_s2_l_p___a_u_x___f_e_m_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -701,17 +688,17 @@
             </UL>
           </UL>
         </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="Utils"><param name="Local" value="dir_0c92f41cafc9bdd235dcdf87a9bc6e08.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Utils"><param name="Local" value="dir_2b5e356b233f9532d6fa27dd0cf36e7a.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="STM32"><param name="Local" value="dir_aa2185c16da779ef4f9ec583840f3e7c.html"><param name="ImageNumber" value="1"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="STM32"><param name="Local" value="dir_ff0c15fd1f131692abd46dd715bd8058.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_d9079b72b7eb52fcd8abeb6a978e4b38.html"><param name="ImageNumber" value="1"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_838b44df40e2647131763b886c8771d1.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SDK_UTILS_Config.h"><param name="Local" value="_s_d_k___u_t_i_l_s___config_8h.html"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SDK_UTILS_Flash.h"><param name="Local" value="_s_d_k___u_t_i_l_s___flash_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SDK_UTILS_Timers_Config_stm32l0xx.h"><param name="Local" value="_s_d_k___u_t_i_l_s___timers___config__stm32l0xx_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
             </UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_b6f849944907e70c2e4012fd58deacbb.html"><param name="ImageNumber" value="1"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_272c21b9f02b590bf6261d0b1b3807db.html"><param name="ImageNumber" value="1"></OBJECT>
             <UL>
             <LI><OBJECT type="text/sitemap"><param name="Name" value="SDK_UTILS_Flash.c"><param name="Local" value="_s_d_k___u_t_i_l_s___flash_8c.html"><param name="ImageNumber" value="1"></OBJECT>
               <UL>
@@ -728,7 +715,7 @@
           </UL>
         </UL>
       </UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Inc"><param name="Local" value="dir_777b8f94066b8619e6b0e0452e687e49.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Inc"><param name="Local" value="dir_f93dfce691d792349f1c14ede440e2e6.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="cube_hal.h"><param name="Local" value="cube__hal_8h.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -896,9 +883,9 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="huart1"><param name="Local" value="usart_8h.html#a2cf715bef37f7e8ef385a30974a5f0d5"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       </UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Sigfox_libs"><param name="Local" value="dir_f21278dc6978df79709af3f4a969a8e6.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Sigfox_libs"><param name="Local" value="dir_ce76a356c6c747456988941cf0f62621.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_8d1fc8a8066494830b0835bd2c8fa69d.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_f5fd260ad2d2b6e2f6341ed3317cafc7.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="addon_sigfox_rf_protocol_api.h"><param name="Local" value="addon__sigfox__rf__protocol__api_8h.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
@@ -1352,7 +1339,7 @@
           </UL>
         </UL>
       </UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Src"><param name="Local" value="dir_97cd3a2ad60f8e1dc9ce605a56f3fb77.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Src"><param name="Local" value="dir_413f4e031a85da0d68269c6fd2f76e1c.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="dma.c"><param name="Local" value="dma_8c.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -1523,9 +1510,9 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="huart1"><param name="Local" value="usart_8c.html#a2cf715bef37f7e8ef385a30974a5f0d5"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       </UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="ST_API"><param name="Local" value="dir_89e1fbd589d90be4dbf4de60e534dd3c.html"><param name="ImageNumber" value="1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="ST_API"><param name="Local" value="dir_49d86153180e8f424393da17d5341864.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_96a0f2bd7f5d3bd45c6901a4da513a5a.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="inc"><param name="Local" value="dir_9da30c7c9a44e9f2fb795d6b082f37bc.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="fifo_ramps_etsi.h"><param name="Local" value="fifo__ramps__etsi_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="fifo_ramps_fcc.h"><param name="Local" value="fifo__ramps__fcc_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
@@ -1661,7 +1648,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="ST_RF_API_Timer_Channel_Clear_CB"><param name="Local" value="st__rf__api_8h.html#a398813fb992f88867aadbccab104a0fa"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         </UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_d57c15336bf89ef19a143ece79ba9462.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="src"><param name="Local" value="dir_8304699a5b51985a9762dd231f373eaa.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="mcu_api_stm32.c"><param name="Local" value="mcu__api__stm32_8c.html"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
