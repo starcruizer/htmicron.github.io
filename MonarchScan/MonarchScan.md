@@ -64,9 +64,7 @@ The results can be seen below:
   <img src="https://www.googleapis.com/drive/v3/files/1Zk3hGocssoDgSSVlAkGDNPV6K7wrB6Dk?alt=media&key=AIzaSyCm-djN9v8CYvbkJ1YNUGdKxo0DrotYn74">
 </div>
 
-<div align="center">
-  <img src="https://www.googleapis.com/drive/v3/files/1ixfsPEG8xkcZ4hOcd0WZYsEAXSc6SSlp?alt=media&key=AIzaSyCm-djN9v8CYvbkJ1YNUGdKxo0DrotYn74">
-</div>
+<img src="https://www.googleapis.com/drive/v3/files/1ixfsPEG8xkcZ4hOcd0WZYsEAXSc6SSlp?alt=media&key=AIzaSyCm-djN9v8CYvbkJ1YNUGdKxo0DrotYn74">
 
 ### Extra Documentation 
 Datasheets and application notes can be found at the [**HT32SX Repository**](https://github.com/htmicron/ht32sx).
