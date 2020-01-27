@@ -21,6 +21,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 for the JavaScript code in this file
 */
 var menudata={children:[
+{text:"Home",url:"../../index.html"},
 {text:"Applications",url:" ", children:[
-{text:"Monarch Scan",url:"./MonarchScan/html/index.html"}]}, 
-{text:"FAQ",url:"./FAQ/html/index.html"}]}
+{text:"Monarch Scan",url:"../../MonarchScan/html/index.html"}]}]}
