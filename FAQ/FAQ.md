@@ -8,6 +8,7 @@
 • [**How should I set up my new device to operate in my current region?**](#configrc) <br/>
 • [**How many messagens can I send daily?**](#dailymsg) <br/>
 • [**How long should I wait between sending two messages?**](#delaymsg) <br/>
+• [**What is the Keil uVision set up for debug purpose?**](#debugpurpose) <br/>
 • [**Error: Invalid message sequence from Device #XXXXX: expected X, actual X**](#eventmsg) <br/>
 
 ## Answered Questions:
@@ -16,7 +17,33 @@
 ### • How do I register a new user on the SigFox Backed?
 
 <hr>
-> **Answer:** It's recommended to contact your local SigFox Provider and ask for an new account. If It did not help you, contact our Support Team sending an email to support_iot@htmicron.com.br.
+> **Answer:** 
+
+> • If you do not have an account and just received an Evaluation Board:
+
+> **1 -** Go to [**SigFox Buy**](https://buy.sigfox.com/activate) and select your country. <br/>
+> **2 -** If you do not know the device **ID** and **PAC**, open a serial terminal and run an example application available on our [**GitHub**](https://github.com/htmicron/ht32sx). It should be shown as the image below: 
+
+<div align="center">
+	![id_pac](https://www.googleapis.com/drive/v3/files/1sW1ahpsqRUkARdzv-rliSx3C6Zm96upo?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+> **3 -** Fill all the spaces, follow the steps and an account will be created with your device registered.
+
+<hr>
+
+> • On the other hand, if you already have an account, go to [**SigFox Backend**](https://backend.sigfox.com/), access your account and click on _**User**_:
+
+<div align="center">
+	![user_newuser](https://www.googleapis.com/drive/v3/files/1C9ppohn34-PME5Q0Li54-l6j_L2UPp52?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+> • Click on _**New**_, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access:
+
+<div align="center">
+	![permissions](https://www.googleapis.com/drive/v3/files/1koGiXAiHDy8k0T2mRYA1Ce60rI99NUrU?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
 <hr>
 
 <br/>
@@ -118,6 +145,42 @@
 
 > **Answer:** The SigFox Network recommends to respect a duty cycle of 1% between messages. 
 > This means that it is necessary to respect a 10 minutes delay between messages (this is also a rule usually required by your local Regulatory Agency responsible for radio communications), otherwise the cloud might reject the messages and generate that event alert.
+
+<hr>
+<br/>
+
+<a name="debugpurpose"></a>
+### • What is the Keil uVision set up for debug purpose?
+
+> **1 -** Open Keil uVision and go to _**Project -> Options for target -> Device**_ and select _**STM32LO52T8Yx**_:
+
+<div align="center">
+	![keil1](https://www.googleapis.com/drive/v3/files/1CyPrCSclun1YW_VBQcrAM6IYykpqHIce?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+> **2 -** Go to _**Debug**_ and select _**ST-Link Debugger**_ option:
+
+<div align="center">
+	![keil2](https://www.googleapis.com/drive/v3/files/1YIbnLN35FnBYIa9U2TBVhliwDIrLz-0T?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+> **2 -** Click on _**Settings**_ and change the _**Connect**_ option to connect _**with Pre-reset**_.
+
+<div align="center">
+	![keil3](https://www.googleapis.com/drive/v3/files/1WRr57TvcUAmXhrc9mQv3FFUcGAjK7Hmu?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+> **3 -** Click on the _**Flash Download**_  tab and check if the HT32SX MCU (STM32LO) is already listed.
+
+<div align="center">
+	![keil4](https://www.googleapis.com/drive/v3/files/1hzXU6mNMWJryagcFwDXi-TOgRmXiovdD?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
+
+ > Otherwise click on _**Add**_ and select the right MCU:
+ 
+<div align="center">
+	![keil5](https://www.googleapis.com/drive/v3/files/1Hrc5Lf4xckgbvH3_DC69MxJQeOSLOaT5?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
+</div>
 
 <hr>
 <br/>

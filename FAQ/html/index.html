@@ -52,6 +52,7 @@ Questions list:</h1>
  • <a href="#configrc"><b>How should I set up my new device to operate in my current region?</b></a> <br  />
  • <a href="#dailymsg"><b>How many messagens can I send daily?</b></a> <br  />
  • <a href="#delaymsg"><b>How long should I wait between sending two messages?</b></a> <br  />
+ • <a href="#debugpurpose"><b>What is the Keil uVision set up for debug purpose?</b></a> <br  />
  • <a href="#eventmsg"><b>Error: Invalid message sequence from Device #XXXXX: expected X, actual X</b></a> <br  />
 </p>
 <h1><a class="anchor" id="autotoc_md2"></a>
@@ -61,9 +62,26 @@ Answered Questions:</h1>
 • How do I register a new user on the SigFox Backed?</h2>
 <hr  />
  <blockquote class="doxtable">
-<p><b>Answer:</b> It's recommended to contact your local SigFox Provider and ask for an new account. If It did not help you, contact our Support Team sending an email to <a href="#" onclick="location.href='mai'+'lto:'+'sup'+'po'+'rt_'+'io'+'t@h'+'tm'+'icr'+'on'+'.co'+'m.'+'br'; return false;">suppo<span style="display: none;">.nosp@m.</span>rt_i<span style="display: none;">.nosp@m.</span>ot@ht<span style="display: none;">.nosp@m.</span>micr<span style="display: none;">.nosp@m.</span>on.co<span style="display: none;">.nosp@m.</span>m.br</a>. </p>
+<p><b>Answer:</b> </p>
+</blockquote>
+<blockquote class="doxtable">
+<p>• If you do not have an account and just received an Evaluation Board: </p>
+</blockquote>
+<blockquote class="doxtable">
+<p><b>1 -</b> Go to <a href="https://buy.sigfox.com/activate"><b>SigFox Buy</b></a> and select your country. <br  />
+ <b>2 -</b> If you do not know the device <b>ID</b> and <b>PAC</b>, open a serial terminal and run an example application available on our <a href="https://github.com/htmicron/ht32sx"><b>GitHub</b></a>. It should be shown as the image below: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1sW1ahpsqRUkARdzv-rliSx3C6Zm96upo?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="id_pac" class="inline"/> </div><blockquote class="doxtable">
+<p><b>3 -</b> Fill all the spaces, follow the steps and an account will be created with your device registered. </p>
 </blockquote>
 <hr  />
+<blockquote class="doxtable">
+<p>• On the other hand, if you already have an account, go to <a href="https://backend.sigfox.com/"><b>SigFox Backend</b></a>, access your account and click on <em><b>User</b></em>: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1C9ppohn34-PME5Q0Li54-l6j_L2UPp52?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="user_newuser" class="inline"/> </div><blockquote class="doxtable">
+<p>Click on <em><b>New</b></em>, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1koGiXAiHDy8k0T2mRYA1Ce60rI99NUrU?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="permissions" class="inline"/> </div><hr  />
 <p><br  />
 </p>
 <p><a class="anchor" id="regdevice"></a> </p>
@@ -155,8 +173,29 @@ Answered Questions:</h1>
 <hr  />
 <p> <br  />
 </p>
-<p><a class="anchor" id="eventmsg"></a> </p>
+<p><a class="anchor" id="debugpurpose"></a> </p>
 <h2><a class="anchor" id="autotoc_md9"></a>
+• What is the Keil uVision set up for debug purpose?</h2>
+<blockquote class="doxtable">
+<p><b>1 -</b> Open Keil uVision and go to <em><b>Project -&gt; Options for target -&gt; Device</b></em> and select <em><b>STM32LO52T8Yx</b></em>: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1CyPrCSclun1YW_VBQcrAM6IYykpqHIce?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil1" class="inline"/> </div><blockquote class="doxtable">
+<p><b>2 -</b> Go to <em><b>Debug</b></em> and select <em><b>ST-Link Debugger</b></em> option: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1YIbnLN35FnBYIa9U2TBVhliwDIrLz-0T?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil2" class="inline"/> </div><blockquote class="doxtable">
+<p><b>2 -</b> Click on <em><b>Settings</b></em> and change the <em><b>Connect</b></em> option to connect <em><b>with Pre-reset</b></em>. </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1WRr57TvcUAmXhrc9mQv3FFUcGAjK7Hmu?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil3" class="inline"/> </div><blockquote class="doxtable">
+<p><b>3 -</b> Click on the <em><b>Flash Download</b></em> tab and check if the HT32SX MCU (STM32LO) is already listed. </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1hzXU6mNMWJryagcFwDXi-TOgRmXiovdD?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil4" class="inline"/> </div><blockquote class="doxtable">
+<p>Otherwise click on <em><b>Add</b></em> and select the right MCU: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1Hrc5Lf4xckgbvH3_DC69MxJQeOSLOaT5?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil5" class="inline"/> </div><hr  />
+<p> <br  />
+</p>
+<p><a class="anchor" id="eventmsg"></a> </p>
+<h2><a class="anchor" id="autotoc_md10"></a>
 • Error: Invalid message sequence from Device #XXXXX: expected X, actual X*</h2>
 <hr  />
 <blockquote class="doxtable">
@@ -181,7 +220,10 @@ Answered Questions:</h1>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
-
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
 </small></address>
 </body>
 </html>
