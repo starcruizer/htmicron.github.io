@@ -30,7 +30,7 @@
 	![id_pac](https://www.googleapis.com/drive/v3/files/1sW1ahpsqRUkARdzv-rliSx3C6Zm96upo?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
 </div>
 
-> **3 -** Fill all the spaces, follow the steps and an account will be created with your device registered.
+> **3 -** Fill all the spaces, follow the steps and an account shall be created with your device registered on it.
 
 <hr>
 
@@ -95,7 +95,7 @@
 > **Answer:**  If you do not have an account on [**SigFox Backend**](https://backend.sigfox.com/) or haven't registered your device yet, check the [**Account Registration**](#regbackend) topic or the [**Device Registration**](#regdevice) topic. 
 > If It's already done, check the following steps: <br/> 
 
-> **1 -** Open the [**SigFox Backend**](https://backend.sigfox.com/) website, where all your messages will be shown. <br/>
+> **1 -** Open [**SigFox Backend**](https://backend.sigfox.com/) website, where all your messages will be shown. <br/>
 > **2 -** Click _**Device**_:
 
 <div align="center">
@@ -108,7 +108,7 @@
 	![deviceselect](https://www.googleapis.com/drive/v3/files/15KFeZQS8hMDV8PTi6fLRsBA-udrvvj5a?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
 </div>
 
-> **4 -** Then click _**Messages**_ and all messages received from that ID will be shown:
+> **4 -** Then click _**Messages**_ and all messages received by that device shall be shown:
 
 <div align="center">
 	![msgtab](https://www.googleapis.com/drive/v3/files/1KWfBygD_fq58IR_YOKTo_jCsC3yM6T65?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
