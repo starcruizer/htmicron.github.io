@@ -24,7 +24,7 @@
 > • If you do not have an account and just received an Evaluation Board:
 
 > **1 -** Go to [**SigFox Buy**](https://buy.sigfox.com/activate) and select your country. <br/>
-> **2 -** If you do not know the device **ID** and **PAC**, open a serial terminal and run an example application available on our [**GitHub**](https://github.com/htmicron/ht32sx). It should be shown as the image below: 
+> **2 -** If you do not know the device ID and PAC, open a serial terminal and run one of our [**GitHub**](https://github.com/htmicron/ht32sx) examples. That information should be shown as the image below:
 
 <div align="center">
 	![id_pac](https://www.googleapis.com/drive/v3/files/1sW1ahpsqRUkARdzv-rliSx3C6Zm96upo?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
@@ -34,13 +34,15 @@
 
 <hr>
 
-> • On the other hand, if you already have an account, go to [**SigFox Backend**](https://backend.sigfox.com/), access your account and click on _**User**_:
+> • On the other hand, if you already have an account: <br/> 
+
+> **1 -** Go to [**SigFox Backend**](https://backend.sigfox.com/), access your account and click _**User**_:
 
 <div align="center">
 	![user_newuser](https://www.googleapis.com/drive/v3/files/1C9ppohn34-PME5Q0Li54-l6j_L2UPp52?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
 </div>
 
-> • Click on _**New**_, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access:
+> **2 -** Click _**New**_, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access:
 
 <div align="center">
 	![permissions](https://www.googleapis.com/drive/v3/files/1koGiXAiHDy8k0T2mRYA1Ce60rI99NUrU?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
@@ -57,25 +59,25 @@
 > **Answer:** If you already have an account, check the following steps below, otherwise check the [**Account Registration**](#regbackend) topic.<br/> 
 
 > **1 -** Open the [**SigFox Backend**](https://backend.sigfox.com/) website. <br/>
-> **2 -** Click on _**Device**_:
+> **2 -** Click _**Device**_:
 
 <div align="center">
 	![devices](https://www.googleapis.com/drive/v3/files/1-u-sz7Adi7hbe048oZzAcpSq2Da_A5fk?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> 
 </div>
 
-> **3 -** Then click on _**New**_ to register a new device:
+> **3 -** Then click _**New**_ to register a new device:
 
 <div align="center">
 	![new](https://www.googleapis.com/drive/v3/files/1p1YuczQEaY9rl7sMq3Bg4l-FvM9OVs5w?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)  <br/> 
 </div>
 
-> **3 -** Select a group.
+> **3 -** Select the group which your device will be part of:
 
 <div align="center">
 	![group](https://www.googleapis.com/drive/v3/files/1ZaWI1HwtjCZa_cMn_b2HwYKeQ6LvDJ69?alt=media&key=AIzaSyD0vizVRI4gcudGwFjpVAbRKDtjUcs-KDk)
 </div>
 
-> **4 -** Fill the underlined fields with your device ID & PAC, and choose a name for this new device.
+> **4 -** Fill the underlined fields with your device ID & PAC and choose a name for this new device.
 
 <div align="center">
 	![form](https://www.googleapis.com/drive/v3/files/1T6f-IWvKywE9MNkR91_4jx9xSE6CpOZ3?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> <br/>
@@ -94,7 +96,7 @@
 > If It's already done, check the following steps: <br/> 
 
 > **1 -** Open the [**SigFox Backend**](https://backend.sigfox.com/) website, where all your messages will be shown. <br/>
-> **2 -** Click on _**Device**_:
+> **2 -** Click _**Device**_:
 
 <div align="center">
 	![devices](https://www.googleapis.com/drive/v3/files/1-u-sz7Adi7hbe048oZzAcpSq2Da_A5fk?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> 
@@ -106,7 +108,7 @@
 	![deviceselect](https://www.googleapis.com/drive/v3/files/15KFeZQS8hMDV8PTi6fLRsBA-udrvvj5a?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
 </div>
 
-> **4 -** Then click on _**Messages**_ and all messages received from that ID will be shown:
+> **4 -** Then click _**Messages**_ and all messages received from that ID will be shown:
 
 <div align="center">
 	![msgtab](https://www.googleapis.com/drive/v3/files/1KWfBygD_fq58IR_YOKTo_jCsC3yM6T65?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
@@ -166,19 +168,19 @@
 	![keil2](https://www.googleapis.com/drive/v3/files/1YIbnLN35FnBYIa9U2TBVhliwDIrLz-0T?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
 </div>
 
-> **2 -** Click on _**Settings**_ and change the _**Connect**_ option to connect _**with Pre-reset**_.
+> **2 -** Click _**Settings**_ and change the _**Connect**_ option to connect _**with Pre-reset**_.
 
 <div align="center">
 	![keil3](https://www.googleapis.com/drive/v3/files/1WRr57TvcUAmXhrc9mQv3FFUcGAjK7Hmu?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
 </div>
 
-> **3 -** Click on the _**Flash Download**_  tab and check if the HT32SX MCU (STM32LO) is already listed.
+> **3 -** Click _**Flash Download**_  tab and check if the HT32SX MCU (STM32LO) is already listed.
 
 <div align="center">
 	![keil4](https://www.googleapis.com/drive/v3/files/1hzXU6mNMWJryagcFwDXi-TOgRmXiovdD?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
 </div>
 
- > Otherwise click on _**Add**_ and select the right MCU:
+ > Otherwise click _**Add**_ and select the right MCU:
  
 <div align="center">
 	![keil5](https://www.googleapis.com/drive/v3/files/1Hrc5Lf4xckgbvH3_DC69MxJQeOSLOaT5?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s)
@@ -196,7 +198,7 @@
 
 > **1 -** Install [**STM32CubeIDE**](https://www.st.com/en/development-tools/stm32cubeide.html). <br/>
 > **2 -** Clone the [**MASTER BRANCH**](https://github.com/htmicron/ht32sx/tree/master) of our [**GitHub Repository**](https://github.com/htmicron/ht32sx). <br/>
-> **3 -** Open the directory where you cloned the repository, click on _**firmware_applications**_ and select an example which you want to use in your project. <br/>
+> **3 -** Open the directory where you cloned the repository, click _**firmware_applications**_ and select an example which you want to use in your project. <br/>
 > **4 -** Open the _**STM32CubeIDE**_ directory and double-click the _**cproject**_ file:
 
 <div align="center">
@@ -229,7 +231,7 @@
 > A simple way to fix it, is disengaging the sequence number. <br/> 
 
 > **1 -** Open the [**SigFox Backend**](https://backend.sigfox.com/) website.. <br/>
-> **2 -** Click on _**Device**_ tab: 
+> **2 -** Click _**Device**_ tab: 
 
 <div align="center">
 	![devices](https://www.googleapis.com/drive/v3/files/1-u-sz7Adi7hbe048oZzAcpSq2Da_A5fk?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> 
@@ -241,7 +243,7 @@
 	![deviceselect](https://www.googleapis.com/drive/v3/files/15KFeZQS8hMDV8PTi6fLRsBA-udrvvj5a?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
 </div>
 
-> **4 -** Then click on _**Disengage sequence number**_ and the counter will be reseted:
+> **4 -** Then click _**Disengage sequence number**_ and the counter will be reseted:
 
 <div align="center">
 	![discounter](https://www.googleapis.com/drive/v3/files/16l-_Zsxrbaaxs5n-2tsofN4xaHMi5Jjr?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4)
