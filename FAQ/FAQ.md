@@ -77,7 +77,7 @@
 	![group](https://www.googleapis.com/drive/v3/files/1ZaWI1HwtjCZa_cMn_b2HwYKeQ6LvDJ69?alt=media&key=AIzaSyD0vizVRI4gcudGwFjpVAbRKDtjUcs-KDk)
 </div>
 
-> **4 -** Fill the underlined fields with your device ID & PAC and choose a name for this new device.
+> **4 -** Fill the underlined fields with your device ID & PAC and choose a name for this new device:
 
 <div align="center">
 	![form](https://www.googleapis.com/drive/v3/files/1T6f-IWvKywE9MNkR91_4jx9xSE6CpOZ3?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> <br/>
