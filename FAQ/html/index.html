@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.16"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>FAQ: Frequently Asked Questions about HT32SX</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
@@ -53,6 +52,8 @@ Questions list:</h1>
  • <a href="#dailymsg"><b>How many messagens can I send daily?</b></a> <br  />
  • <a href="#delaymsg"><b>How long should I wait between sending two messages?</b></a> <br  />
  • <a href="#debugpurpose"><b>What is the Keil uVision set up for debug purpose?</b></a> <br  />
+ • <a href="#cudeide1"><b>How to open the examples using STM32CubeIDE?</b></a> <br  />
+ • <a href="#cudemx"><b>What or which peripherals can I change using STM32CubeMX/CubeIDE graphical interface?</b></a> <br  />
  • <a href="#eventmsg"><b>Error: Invalid message sequence from Device #XXXXX: expected X, actual X</b></a> <br  />
 </p>
 <h1><a class="anchor" id="autotoc_md2"></a>
@@ -79,7 +80,7 @@ Answered Questions:</h1>
 <p>• On the other hand, if you already have an account, go to <a href="https://backend.sigfox.com/"><b>SigFox Backend</b></a>, access your account and click on <em><b>User</b></em>: </p>
 </blockquote>
 <div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1C9ppohn34-PME5Q0Li54-l6j_L2UPp52?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="user_newuser" class="inline"/> </div><blockquote class="doxtable">
-<p>Click on <em><b>New</b></em>, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access: </p>
+<p>• Click on <em><b>New</b></em>, fill all spaces, select the group which this new user will participate and select the permissions. The following permissions are recommended for admin access: </p>
 </blockquote>
 <div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1koGiXAiHDy8k0T2mRYA1Ce60rI99NUrU?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="permissions" class="inline"/> </div><hr  />
 <p><br  />
@@ -194,9 +195,40 @@ Answered Questions:</h1>
 <div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1Hrc5Lf4xckgbvH3_DC69MxJQeOSLOaT5?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="keil5" class="inline"/> </div><hr  />
 <p> <br  />
 </p>
-<p><a class="anchor" id="eventmsg"></a> </p>
+<p><a class="anchor" id="cudeide1"></a> </p>
 <h2><a class="anchor" id="autotoc_md10"></a>
-• Error: Invalid message sequence from Device #XXXXX: expected X, actual X*</h2>
+• How to open the examples using STM32CubeIDE?</h2>
+<hr  />
+<blockquote class="doxtable">
+<p><b>Answer:</b> </p>
+</blockquote>
+<blockquote class="doxtable">
+<p><b>1 -</b> Install <a href="https://www.st.com/en/development-tools/stm32cubeide.html"><b>STM32CubeIDE</b></a>. <br  />
+ <b>2 -</b> Clone the <a href="https://github.com/htmicron/ht32sx/tree/master"><b>MASTER BRANCH</b></a> of our <a href="https://github.com/htmicron/ht32sx"><b>GitHub Repository</b></a>. <br  />
+ <b>3 -</b> Open the directory where you cloned the repository, click on <em><b>firmware_applications</b></em> and select an example which you want to use in your project. <br  />
+ <b>4 -</b> Open the <em><b>STM32CubeIDE</b></em> directory and double-click the <em><b>cproject</b></em> file: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/1UZJkxDV7iRGEXEl9ZqBIAL0a-mfV9yTL?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="cproject" class="inline"/> <br  />
+ </div><blockquote class="doxtable">
+<p><b>5 -</b> To open the STM32CubeMX graphical interface, double-click the <em><b>ioc</b></em> file: </p>
+</blockquote>
+<div align="center"> <img src="https://www.googleapis.com/drive/v3/files/14zD8fo-CUjGpl5tLffT9e6Tr93C_1K_w?alt=media&amp;key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s" alt="iocfile" class="inline"/> <br  />
+ </div><hr  />
+<p> <br  />
+</p>
+<p><a class="anchor" id="cudemx"></a> </p>
+<h2><a class="anchor" id="autotoc_md11"></a>
+• What or which peripherals can I change using STM32CubeMX/CubeIDE graphical interface?</h2>
+<hr  />
+<blockquote class="doxtable">
+<p><b>Answer:</b> Looking at STM32CubeMX/CubeIDE .ioc file, you will se which paripherals are being used. You can change <b>ONLY</b> the UART set up, selecting another one or even deleting from your project, and the GPIO which the Evaluation Board button (PB0) is using (push button examples). <b>ANY OTHER CHANGE</b> will efect the chip functionality. </p>
+</blockquote>
+<hr  />
+<p> <br  />
+</p>
+<p><a class="anchor" id="eventmsg"></a> </p>
+<h2><a class="anchor" id="autotoc_md12"></a>
+• Error: Invalid message sequence from Device #XXXXX: expected X, actual X</h2>
 <hr  />
 <blockquote class="doxtable">
 <p><b>Answer:</b> This is coused by the message counter. Both sides must to have the same counter, otherwise the message won't be received on SigFox Backed. <br  />
@@ -221,9 +253,6 @@ Answered Questions:</h1>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.16
 </small></address>
 </body>
 </html>

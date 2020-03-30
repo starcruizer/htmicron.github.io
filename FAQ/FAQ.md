@@ -9,6 +9,8 @@
 • [**How many messagens can I send daily?**](#dailymsg) <br/>
 • [**How long should I wait between sending two messages?**](#delaymsg) <br/>
 • [**What is the Keil uVision set up for debug purpose?**](#debugpurpose) <br/>
+• [**How to open the examples using STM32CubeIDE?**](#cudeide1) <br/>
+• [**What or which peripherals can I change using STM32CubeMX/CubeIDE graphical interface?**](#cudemx) <br/>
 • [**Error: Invalid message sequence from Device #XXXXX: expected X, actual X**](#eventmsg) <br/>
 
 ## Answered Questions:
@@ -185,15 +187,49 @@
 <hr>
 <br/>
 
+
+<a name="cudeide1"></a>
+### • How to open the examples using STM32CubeIDE?
+<hr>
+
+> **Answer:** 
+
+> **1 -** Install [**STM32CubeIDE**](https://www.st.com/en/development-tools/stm32cubeide.html). <br/>
+> **2 -** Clone the [**MASTER BRANCH**](https://github.com/htmicron/ht32sx/tree/master) of our [**GitHub Repository**](https://github.com/htmicron/ht32sx). <br/>
+> **3 -** Open the directory where you cloned the repository, click on _**firmware_applications**_ and select an example which you want to use in your project. <br/>
+> **4 -** Open the _**STM32CubeIDE**_ directory and double-click the _**cproject**_ file:
+
+<div align="center">
+	![cproject](https://www.googleapis.com/drive/v3/files/1UZJkxDV7iRGEXEl9ZqBIAL0a-mfV9yTL?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s) <br/>
+</div>
+
+> **5 -** To open the STM32CubeMX graphical interface, double-click the _**ioc**_ file:
+
+<div align="center">
+	![iocfile](https://www.googleapis.com/drive/v3/files/14zD8fo-CUjGpl5tLffT9e6Tr93C_1K_w?alt=media&key=AIzaSyA3IM3FTM-B4ibyKf1dUPBdbmKgAN9LX-s) <br/>
+</div>
+
+<hr>
+<br/>
+
+<a name="cudemx"></a>
+### • What or which peripherals can I change using STM32CubeMX/CubeIDE graphical interface?
+<hr>
+
+> **Answer:** Looking at STM32CubeMX/CubeIDE .ioc file, you will se which paripherals are being used. You can change **ONLY** the UART set up, selecting another one or even deleting from your project, and the GPIO which the Evaluation Board button (PB0) is using (push button examples). **ANY OTHER CHANGE** will efect the chip functionality.
+
+<hr>
+<br/>
+
 <a name="eventmsg"></a>
-### • Error: Invalid message sequence from Device #XXXXX: expected X, actual X*
+### • Error: Invalid message sequence from Device #XXXXX: expected X, actual X
 <hr>
 
 > **Answer:** This is coused by the message counter. Both sides must to have the same counter, otherwise the message won't be received on SigFox Backed. <br/>
 > A simple way to fix it, is disengaging the sequence number. <br/> 
 
 > **1 -** Open the [**SigFox Backend**](https://backend.sigfox.com/) website.. <br/>
-> **2 -** Click on _**Device**_ tab:
+> **2 -** Click on _**Device**_ tab: 
 
 <div align="center">
 	![devices](https://www.googleapis.com/drive/v3/files/1-u-sz7Adi7hbe048oZzAcpSq2Da_A5fk?alt=media&key=AIzaSyBazifvhYWroBBnEocbFpLG0mOjfUfelE4) <br/> 

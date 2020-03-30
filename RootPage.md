@@ -25,7 +25,7 @@ This section describes all necessary steps needed to use the SigFox™ with the 
 Also, these programs are recommended: <br/>
 •	[**GIT**](https://git-scm.com/downloads). <br/>
 •	[**STM32 ST-LINK Utility**](https://www.st.com/en/development-tools/stsw-link004.html). <br/>
-•	[**ARM Keil µVision**](https://www.keil.com/demo/eval/arm.htm) for STM32.<br/>
+•	[**ARM Keil µVision**](https://www.keil.com/demo/eval/arm.htm) for STM32 or [**STM32CubeIDE**](https://www.st.com/en/development-tools/stm32cubeide.html).<br/>
 •	[**STM32CubeMX**](https://www.st.com/en/development-tools/stm32cubemx.html) for personalisation of the program using a graphical interface. <br/>
 •	RS232 terminal ([**Termite**](https://www.compuphase.com/software_termite.htm) is recommended). <br/>	
 
