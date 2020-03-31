@@ -1,0 +1,17 @@
+digraph "SDK EVAL Config"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node5 [label="SDK EVAL Config Exported\l Functions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___config___exported___functions.html",tooltip=" "];
+  Node2 [label="SDK_EVAL_BlueNRG1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___blue_n_r_g1.html",tooltip=" "];
+  Node1 [label="SDK EVAL Config",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="SDK EVAL configuration."];
+  Node4 [label="SDK EVAL Config Exported\l Macros",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___config___exported___macros.html",tooltip=" "];
+  Node3 [label="SDK EVAL Config Exported\l Constants",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___config___exported___constants.html",tooltip=" "];
+  Node6 [label="SDK EVAL Config Exported\l Types",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___config___exported___types.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node3 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node4 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node5 [shape=plaintext, dir="back", style="solid"];
+  Node1->Node6 [shape=plaintext, dir="back", style="solid"];
+}

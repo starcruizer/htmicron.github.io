@@ -1,0 +1,15 @@
+digraph "C:/Users/hendrick.goncalves/Documents/GenericPushButton_Doxygne/Generic_Push_Button/Drivers/Utils" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d28b261e8e6ff5c790f18a7be688ccf4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Drivers" fontname="Helvetica", fontsize="10", URL="dir_d28b261e8e6ff5c790f18a7be688ccf4.html"]
+  subgraph clusterdir_a5fcd783a6c2a71dc5c3aafb2bf980ea {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a5fcd783a6c2a71dc5c3aafb2bf980ea.html"];
+    dir_a5fcd783a6c2a71dc5c3aafb2bf980ea [shape=plaintext label="Utils"];
+    dir_f1cf4040363d004196423137bc0dadd5 [shape=box label="STM32" color="red" fillcolor="white" style="filled" URL="dir_f1cf4040363d004196423137bc0dadd5.html"];
+  }
+  }
+  dir_ffee91cc668c9e471950db577f2ca9ad [shape=box label="Inc" URL="dir_ffee91cc668c9e471950db577f2ca9ad.html"];
+  dir_f1cf4040363d004196423137bc0dadd5->dir_ffee91cc668c9e471950db577f2ca9ad [headlabel="1", labeldistance=1.5 headhref="dir_000013_000016.html"];
+}

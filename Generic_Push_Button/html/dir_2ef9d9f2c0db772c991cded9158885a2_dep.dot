@@ -1,0 +1,18 @@
+digraph "C:/Generic_Push_Button/Drivers/S2LP_Middleware" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bfcb9b59d5a79fef99b63003bd588650 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Drivers" fontname="Helvetica", fontsize="10", URL="dir_bfcb9b59d5a79fef99b63003bd588650.html"]
+  subgraph clusterdir_2ef9d9f2c0db772c991cded9158885a2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2ef9d9f2c0db772c991cded9158885a2.html"];
+    dir_2ef9d9f2c0db772c991cded9158885a2 [shape=plaintext label="S2LP_Middleware"];
+    dir_dd48bbf37f214ec5c95fd63afd814d2d [shape=box label="STM32" color="red" fillcolor="white" style="filled" URL="dir_dd48bbf37f214ec5c95fd63afd814d2d.html"];
+  }
+  }
+  dir_c4d9a9c269c47f78f32b38b2f4649794 [shape=box label="ST_API" fillcolor="white" style="filled" color="red" URL="dir_c4d9a9c269c47f78f32b38b2f4649794.html"];
+  dir_1a536925bd7386c694430b43ba783044 [shape=box label="Sigfox_libs" fillcolor="white" style="filled" color="red" URL="dir_1a536925bd7386c694430b43ba783044.html"];
+  dir_dd48bbf37f214ec5c95fd63afd814d2d->dir_c4d9a9c269c47f78f32b38b2f4649794 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000016.html"];
+  dir_dd48bbf37f214ec5c95fd63afd814d2d->dir_1a536925bd7386c694430b43ba783044 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000013.html"];
+  dir_c4d9a9c269c47f78f32b38b2f4649794->dir_1a536925bd7386c694430b43ba783044 [headlabel="12", labeldistance=1.5 headhref="dir_000016_000013.html"];
+}

@@ -1,0 +1,22 @@
+digraph "C:/Users/hendrick.goncalves/Documents/GenericPushButton_Doxygne/Generic_Push_Button/Drivers/S2LP_Middleware/STM32/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f62ed658377cc2b5dd2eb4c605c5df7f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="STM32" fontname="Helvetica", fontsize="10", URL="dir_f62ed658377cc2b5dd2eb4c605c5df7f.html"]
+  subgraph clusterdir_b280f0ff4b84ac4c28d53dbaa40aac38 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b280f0ff4b84ac4c28d53dbaa40aac38.html"];
+    dir_b280f0ff4b84ac4c28d53dbaa40aac38 [shape=plaintext label="src"];
+    dir_f25acfb53178add06b9aa3b81ffe6b2a [shape=box label="FEM" color="black" fillcolor="white" style="filled" URL="dir_f25acfb53178add06b9aa3b81ffe6b2a.html"];
+    dir_1dd13655168aa0ae8fa62ffc75aae97b [shape=box label="TCXO" color="black" fillcolor="white" style="filled" URL="dir_1dd13655168aa0ae8fa62ffc75aae97b.html"];
+  }
+  }
+  dir_18f15354633d1b1c03a46d83828bf022 [shape=box label="Sigfox_libs" fillcolor="white" style="filled" color="red" URL="dir_18f15354633d1b1c03a46d83828bf022.html"];
+  dir_375791623a4f56bf1a10ffe0e0b5a456 [shape=box label="inc" URL="dir_375791623a4f56bf1a10ffe0e0b5a456.html"];
+  dir_21ada2b64b77fd55dcba91e56747eb15 [shape=box label="ST_API" fillcolor="white" style="filled" color="red" URL="dir_21ada2b64b77fd55dcba91e56747eb15.html"];
+  dir_f25acfb53178add06b9aa3b81ffe6b2a->dir_18f15354633d1b1c03a46d83828bf022 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000017.html"];
+  dir_f25acfb53178add06b9aa3b81ffe6b2a->dir_375791623a4f56bf1a10ffe0e0b5a456 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000008.html"];
+  dir_f25acfb53178add06b9aa3b81ffe6b2a->dir_21ada2b64b77fd55dcba91e56747eb15 [headlabel="1", labeldistance=1.5 headhref="dir_000010_000020.html"];
+  dir_1dd13655168aa0ae8fa62ffc75aae97b->dir_375791623a4f56bf1a10ffe0e0b5a456 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000008.html"];
+  dir_21ada2b64b77fd55dcba91e56747eb15->dir_18f15354633d1b1c03a46d83828bf022 [headlabel="12", labeldistance=1.5 headhref="dir_000020_000017.html"];
+}

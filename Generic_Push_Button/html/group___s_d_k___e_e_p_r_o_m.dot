@@ -1,0 +1,9 @@
+digraph "SDK_EEPROM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="SDK_EEPROM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Management of Software Development Kit eval board EEPROM."];
+  Node2 [label="SDK_EVAL_NUCLEO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___s_d_k___e_v_a_l___n_u_c_l_e_o.html",tooltip=" "];
+  Node2->Node1 [shape=plaintext, dir="back", style="solid"];
+}

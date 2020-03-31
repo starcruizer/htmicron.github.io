@@ -22,5 +22,6 @@ for the JavaScript code in this file
 */
 var menudata={children:[
 {text:"Applications",url:" ", children:[
+{text:"Generic Push Button",url:"./Generic_Push_Button/html/index.html"},
 {text:"Monarch Scan",url:"./MonarchScan/html/index.html"}]}, 
 {text:"FAQ",url:"./FAQ/html/index.html"}]}

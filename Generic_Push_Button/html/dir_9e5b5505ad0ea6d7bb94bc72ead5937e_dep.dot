@@ -1,0 +1,22 @@
+digraph "C:/Generic_Push_Button/Drivers/S2LP_Middleware/STM32/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_dd48bbf37f214ec5c95fd63afd814d2d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="STM32" fontname="Helvetica", fontsize="10", URL="dir_dd48bbf37f214ec5c95fd63afd814d2d.html"]
+  subgraph clusterdir_9e5b5505ad0ea6d7bb94bc72ead5937e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9e5b5505ad0ea6d7bb94bc72ead5937e.html"];
+    dir_9e5b5505ad0ea6d7bb94bc72ead5937e [shape=plaintext label="src"];
+    dir_08387704a6bb1ac99c4ecd27cacfc090 [shape=box label="FEM" color="black" fillcolor="white" style="filled" URL="dir_08387704a6bb1ac99c4ecd27cacfc090.html"];
+    dir_2e9d30ae1dcb43a4bd3558c8921bc39f [shape=box label="TCXO" color="black" fillcolor="white" style="filled" URL="dir_2e9d30ae1dcb43a4bd3558c8921bc39f.html"];
+  }
+  }
+  dir_b05cbe8e240aab174c60e027d87724f3 [shape=box label="inc" URL="dir_b05cbe8e240aab174c60e027d87724f3.html"];
+  dir_c4d9a9c269c47f78f32b38b2f4649794 [shape=box label="ST_API" fillcolor="white" style="filled" color="red" URL="dir_c4d9a9c269c47f78f32b38b2f4649794.html"];
+  dir_1a536925bd7386c694430b43ba783044 [shape=box label="Sigfox_libs" fillcolor="white" style="filled" color="red" URL="dir_1a536925bd7386c694430b43ba783044.html"];
+  dir_2e9d30ae1dcb43a4bd3558c8921bc39f->dir_b05cbe8e240aab174c60e027d87724f3 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000004.html"];
+  dir_c4d9a9c269c47f78f32b38b2f4649794->dir_1a536925bd7386c694430b43ba783044 [headlabel="12", labeldistance=1.5 headhref="dir_000016_000013.html"];
+  dir_08387704a6bb1ac99c4ecd27cacfc090->dir_b05cbe8e240aab174c60e027d87724f3 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000004.html"];
+  dir_08387704a6bb1ac99c4ecd27cacfc090->dir_c4d9a9c269c47f78f32b38b2f4649794 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000016.html"];
+  dir_08387704a6bb1ac99c4ecd27cacfc090->dir_1a536925bd7386c694430b43ba783044 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000013.html"];
+}
